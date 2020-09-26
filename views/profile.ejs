@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>Roulette</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background2">
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1><span></span> Staff Center</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+        <!-- LOCAL INFORMATION -->
+        <section class="casinoEarnings">
+          <h3 class="mainTitle">Casino Winnings</h3>
+          <table class="data">
+            <tr>
+              <td class="tdTitle">Wins:</td>
+              <td class="tdTitle">Losses:</td>
+              <td class="tdTitle">Casino Money:</td>
+            </tr>
+          <% for(var i=0; i < data.length; i++) {%>
+            <tr>
+              <td><span><%= data[i].wins %></span></td>
+              <td><span><%= data[i].losses %></span></td>
+              <td><span>$ <%= data[i].casinoTotal %></span></td>
+            </tr>
+            <% } %>
+          </table>
+      </section>
+
+<script src="main.js"></script>
+
+</body>
+</html>

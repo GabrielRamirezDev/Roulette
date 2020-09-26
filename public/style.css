@@ -1,0 +1,60 @@
+body{
+  /* padding-top:80px; */
+  word-wrap:break-word;
+  background-image: url("https://images3.alphacoders.com/210/210569.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.background2{
+  background-image: url("https://uploads-ssl.webflow.com/59e62edd85839000015989c7/5d0e772cdb4538c96d2ae025_1080.jpg");
+  background-repeat: no-repeat;
+  
+}
+
+img{
+  height: 200px;
+}
+nav{
+  float: right;
+}
+.smallH{
+  font-family: 'Lobster', cursive;
+  font-size: 3rem;
+  color: white;
+}
+.bigH{
+  padding-top: 15px;
+  padding-left: 20px;
+  font-family: 'Monoton', cursive;
+  color: rgb(205,40,16);
+  font-size: 5rem
+}
+
+.naver{
+  display: flex;
+  justify-content: flex-end;
+  max-height: 50px;
+  overflow-y: auto;
+}
+
+.play{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.titleSec{
+  display: flex;
+  justify-content: center;
+}
+.betSec{
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+}
+.resultSec{
+  display: flex;
+  justify-content: center;
+
+}
